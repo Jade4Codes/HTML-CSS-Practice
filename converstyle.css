@@ -210,26 +210,29 @@ button {
 .shoe-product {
   display: flex;
   gap: 16px;
-  justify-content: left;
-  flex: 1;
+  justify-content: space-between;
 }
 
 /* .free {
   display: flex;
 } */
 
+.p {
+  flex: 0 1 250px;
+}
+
 .el--2 {
   align-self: auto;
   height: 250px;
+  /* flex-basis: 250px; */
   /* background-color: coral; */
 }
 
 .el--3 {
   align-self: auto;
-  flex: 0 0 auto;
   /* background-color: rebeccapurple; */
-  flex-basis: auto;
-  margin-right: 12px;
+  /* flex-basis: 250px; */
+  /* margin-right: 12px; */
 }
 
 .el--1 {
