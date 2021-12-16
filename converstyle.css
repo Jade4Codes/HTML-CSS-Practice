@@ -42,8 +42,7 @@ article {
   font-size: 12px;
   /* float: right; */
   display: inline-block;
-  margin-top: 20px;
-  margin-left: 81px;
+  /* margin-top: 20px; */
 }
 
 .main-header {
@@ -73,7 +72,7 @@ a:active {
 }
 
 .more-info {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   display: inline-block;
 }
 
@@ -185,30 +184,60 @@ h4 {
 
 /* FLOATS */
 
-.shoe {
+/* .shoe {
   float: left;
   width: 240px;
-}
+} */
 
-.imp-info {
+/* .imp-info {
   float: left;
   width: 240px;
   height: 250px;
   margin-left: 40px;
   /* background-color: pink; */
-}
 
-.detail-info {
+/* .detail-info {
   float: right;
   width: 240px;
   height: 250px;
   margin-left: 40px;
   /* background-color: green; */
-}
-
-.anything {
-}
 
 button {
   clear: both;
+}
+
+.shoe-product {
+  display: flex;
+  gap: 16px;
+  justify-content: left;
+  flex: 1;
+}
+
+/* .free {
+  display: flex;
+} */
+
+.el--2 {
+  align-self: auto;
+  height: 250px;
+  /* background-color: coral; */
+}
+
+.el--3 {
+  align-self: auto;
+  flex: 0 0 auto;
+  /* background-color: rebeccapurple; */
+  flex-basis: auto;
+  margin-right: 12px;
+}
+
+.el--1 {
+  align-self: flex-start;
+}
+
+.first-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
